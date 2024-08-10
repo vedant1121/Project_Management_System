@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <div class="inner-container">
+          <h1>About Us</h1>
+          <h2>The #1 software development tool used by agile teams</h2><br><br>
+          <blockquote>
+          <p align="center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">“We grew to 30 projects with lots of plans and branches under each, which means 50 running builds at the same time. Considering the number of projects, we couldn’t have survived without Pms.”</p></blockquote><br>
+          <p align="center" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Manoj Poojara<br>
+            Work Program Manager, Infosys</p>
+            
+          <!-- <p class="text">
+            A Project Management System is a software tool designed to help organizations plan, execute, and control projects. The system typically includes features for defining project tasks, scheduling work, tracking progress, assigning resources, and communicating with team members. It provides a centralized platform for project managers to monitor project status, identify potential issues, and take corrective action as necessary. The project management system can be used in a variety of industries and settings, including construction, information technology, and marketing. By using a project management system, organizations can improve project efficiency, reduce costs, and ensure timely completion of projects.
+          </p> -->
+        </div>
+      </div>      
+</body>
+</html>
